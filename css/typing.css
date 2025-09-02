@@ -8,7 +8,7 @@ a {
 
 .main{
     text-align: center;
-    margin-top: 220px;
+    margin-top: 80px;
     color: rgb(1, 2, 44);
     width: 850px;
     margin-left: auto;
@@ -36,4 +36,9 @@ button:hover {
     color: rgb(6, 28, 48);
     border: none;
     cursor: pointer;
+}
+
+#mainText {
+    margin-top: 50px;
+    color: aliceblue;
 }
