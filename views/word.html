@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/word.css" />
+        <title>타자 연습(단어)</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/word.css">
-    <title>타자 연습(단어)</title>
-</head>
-
-<body>
-    <!-- 카운트다운 팝업 -->
-    <div id="countdown-popup">
-        <div id="countdown-number">5</div>
-    </div>
-
-    <input>
-    <script src="../js/word.js"></script>
-</body>
-
+    <body>
+        <!-- 카운트다운 팝업 -->
+        <div id="countdown-popup">
+            <div id="countdown-number">5</div>
+        </div>
+        </div>
+        <div id="content">
+            <div id="text">
+                <label id="example">게이</label> 
+            </div>
+            <input id="typing" type="text" autocomplete="off">
+            <div id="ouput">
+                <p id="result">입력한 텍스트가 표시됨</p>
+            </div>
+        </div>
+        <script src="../js/word.js"></script>
+    </body>
 </html>
