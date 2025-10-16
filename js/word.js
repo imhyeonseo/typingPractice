@@ -35,11 +35,14 @@ function startCountdown() {
 function setupTypingInput() {
     const typingInput = document.getElementById('typing');
     const typingOutput = document.getElementById('result')
-    
+    const typingResult = document.getElementById('yesOrNo')
+    const wordExample = document.getElementById('example')
+
     typingInput.addEventListener('keypress', function(event) {
         if (event.key === 'Enter') {
             // 입력된 텍스트를 변수에 저장
             inputText = typingInput.value;
+            
             
             // 입력 필드 비우기
             typingInput.value = '';
@@ -48,7 +51,11 @@ function setupTypingInput() {
             typingOutput.textContent = inputText
             
             // console.log('저장된 텍스트:', inputText); // 확인용 로그
-            
+            if(inputText == wordExample.textContent){
+                yesOrNo.textContent = "일치합니다."
+            } else {
+                yesOrNo.textContent = "불일치합니다."
+            }
         }
     });
 }

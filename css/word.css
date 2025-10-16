@@ -16,6 +16,7 @@ input:focus {
     width: 1100px;
     font-size: 30px;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 /* 카운트다운 팝업 스타일  */
@@ -44,4 +45,19 @@ input:focus {
     font-size: 30px;
     color: rgb(255, 221, 0);
     background-color: rgba(255, 223, 106, 0.339);
+}
+
+#content #output #result {
+    margin-top: 100px;
+    font-size: 20px;
+    color: rgb(0, 132, 255);
+    background-color: rgba(63, 106, 147, 0.528);
+}
+
+#content #output2{
+    margin-top: 10px;
+}
+
+#content #output2 #yesOrNo{
+    color: white;
 }
